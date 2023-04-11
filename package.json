@@ -1,6 +1,6 @@
 {
   "name": "@vroskus/library-pushover",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Pushover",
   "author": "Vilius Roškus <vilius@regattas.eu>",
   "license": "MIT",
