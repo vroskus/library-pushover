@@ -1,20 +1,20 @@
 export type $Config = {
-  userKey: string;
   apiToken: string;
   onError?: () => unknown;
+  userKey: string;
 };
 
 export type $Message = {
   message: string;
-  sound?: 'pushover' | 'falling' | 'siren' | 'cashregister';
+  sound?: 'cashregister' | 'falling' | 'pushover' | 'siren';
   title?: string;
   url?: string;
   urlTitle?: string;
 };
 
 export type $Result = {
-  token: string;
   errors: Array<string>;
-  status: number;
   request: string;
+  status: number;
+  token: string;
 };
