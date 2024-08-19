@@ -17,7 +17,7 @@ type $Payload = {
 };
 
 type $Pushover = {
-  send: (arg0: $Payload, arg1: (arg0: Error | void, arg1: Result) => void) => void;
+  send: (arg0: $Payload, arg1: (arg10: Error | void, arg11: Result) => void) => void;
 };
 
 export type $Config = Config;
