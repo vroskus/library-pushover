@@ -20,11 +20,11 @@
     "test:e2e": "echo 'No tests'"
   },
   "dependencies": {
-    "pushover-notifications": "^1.2.2"
+    "pushover-notifications": "^1.2.3"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.12.10",
+    "@types/node": "^22.4.1",
     "@vroskus/eslint-config": "^1.0.11",
     "typescript": "^5.4.5"
   }
