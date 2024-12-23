@@ -8,6 +8,11 @@ import type {
   $Result as Result,
 } from './types';
 
+export type $Config = Config;
+
+export type $Message = Message;
+
+export type $Result = Result;
 type $Payload = {
   message: string;
   sound?: string;
@@ -15,14 +20,9 @@ type $Payload = {
   url?: string;
   url_title?: string;
 };
-
 type $Pushover = {
   send: (arg0: $Payload, arg1: (arg10: Error | void, arg11: Result) => void) => void;
 };
-
-export type $Config = Config;
-export type $Message = Message;
-export type $Result = Result;
 
 class PushoverService<C extends $Config> {
   instance: $Pushover;
